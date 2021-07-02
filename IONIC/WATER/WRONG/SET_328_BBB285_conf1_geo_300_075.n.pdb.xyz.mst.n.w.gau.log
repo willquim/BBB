@@ -1,0 +1,406 @@
+ Entering Gaussian System, Link 0=g09
+ Initial command:
+ /prod/apps/gaussian/g09d1/l1.exe "/tmp/ubafar01/1496625/Gau-84525.inp" -scrdir="/tmp/ubafar01/1496625/"
+ Entering Link 1 = /prod/apps/gaussian/g09d1/l1.exe PID=     84527.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 09 program.  It is based on
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 09, Revision D.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, 
+ G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, 
+ A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, 
+ M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, 
+ Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., 
+ J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, 
+ K. N. Kudin, V. N. Staroverov, T. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, 
+ M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, 
+ V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, 
+ O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, 
+ R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, 
+ P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, 
+ O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski, 
+ and D. J. Fox, Gaussian, Inc., Wallingford CT, 2013.
+ 
+ ******************************************
+ Gaussian 09:  AM64L-G09RevD.01 24-Apr-2013
+                12-Nov-2020 
+ ******************************************
+ %nproc=1
+ Will use up to    1 processors via shared memory.
+ %Chk=SET_328_BBB285_conf1_geo_300_075.n.pdb.xyz.mst.n.w.chk
+ %mem=16GB
+ -----------------
+ #p b3lyp/6-31G(d)
+ -----------------
+ 1/38=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=1,6=6,7=1,11=2,16=1,25=1,30=1,74=-5/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 99/5=1,9=1/99;
+ Leave Link    1 at Thu Nov 12 20:35:27 2020, MaxMem=  2147483648 cpu:         0.0
+ (Enter /prod/apps/gaussian/g09d1/l101.exe)
+ ------------------------------------------
+ SET_328_BBB285_conf1_geo_300_075.n.pdb.xyz
+ ------------------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ N                     2.668    -3.214     1.071 
+ H                     3.082    -4.033     1.502 
+ H                     1.868    -2.782     1.513 
+ C                     3.172    -2.756    -0.092 
+ O                     4.135    -3.263    -0.678 
+ C                     2.494    -1.564    -0.663 
+ C                     2.809    -0.885    -1.854 
+ N                     1.958     0.129    -2.002 
+ H                     3.585    -1.083    -2.576 
+ N                     1.451    -0.95     -0.092 
+ N                     1.177     0.05     -0.919 
+ C                     0.041     0.953    -0.725 
+ H                     0.184     1.732    -1.475 
+ O                    -1.171     0.268    -0.937 
+ C                    -2.005     0.353     0.25 
+ C                    -3.466     0.39     -0.174 
+ O                    -3.864    -0.771    -0.888 
+ H                    -3.837    -1.52     -0.268 
+ H                    -3.614     1.239    -0.843 
+ H                    -4.085     0.549     0.72 
+ H                    -1.821    -0.532     0.873 
+ C                    -1.514     1.6       0.982 
+ O                    -2.074     2.761     0.392 
+ H                    -1.391     3.456     0.475 
+ H                    -1.732     1.555     2.055 
+ C                    -0.002     1.551     0.694 
+ H                     0.497     0.874     1.393 
+ O                     0.606     2.828     0.675 
+ H                     0.846     3.06      1.591 
+ 
+ NAtoms=     29 NQM=       29 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3           4           5           6           7           8           9          10
+ IAtWgt=          14           1           1          12          16          12          12          14           1          14
+ AtmWgt=  14.0030740   1.0078250   1.0078250  12.0000000  15.9949146  12.0000000  12.0000000  14.0030740   1.0078250  14.0030740
+ NucSpn=           2           1           1           0           0           0           0           2           1           2
+ AtZEff=   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NQMom=    2.0440000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   2.0440000   0.0000000   2.0440000
+ NMagM=    0.4037610   2.7928460   2.7928460   0.0000000   0.0000000   0.0000000   0.0000000   0.4037610   2.7928460   0.4037610
+ AtZNuc=   7.0000000   1.0000000   1.0000000   6.0000000   8.0000000   6.0000000   6.0000000   7.0000000   1.0000000   7.0000000
+
+  Atom        11          12          13          14          15          16          17          18          19          20
+ IAtWgt=          14          12           1          16          12          12          16           1           1           1
+ AtmWgt=  14.0030740  12.0000000   1.0078250  15.9949146  12.0000000  12.0000000  15.9949146   1.0078250   1.0078250   1.0078250
+ NucSpn=           2           0           1           0           0           0           0           1           1           1
+ AtZEff=   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NQMom=    2.0440000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    0.4037610   0.0000000   2.7928460   0.0000000   0.0000000   0.0000000   0.0000000   2.7928460   2.7928460   2.7928460
+ AtZNuc=   7.0000000   6.0000000   1.0000000   8.0000000   6.0000000   6.0000000   8.0000000   1.0000000   1.0000000   1.0000000
+
+  Atom        21          22          23          24          25          26          27          28          29
+ IAtWgt=           1          12          16           1           1          12           1          16           1
+ AtmWgt=   1.0078250  12.0000000  15.9949146   1.0078250   1.0078250  12.0000000   1.0078250  15.9949146   1.0078250
+ NucSpn=           1           0           0           1           1           0           1           0           1
+ AtZEff=   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    2.7928460   0.0000000   0.0000000   2.7928460   2.7928460   0.0000000   2.7928460   0.0000000   2.7928460
+ AtZNuc=   1.0000000   6.0000000   8.0000000   1.0000000   1.0000000   6.0000000   1.0000000   8.0000000   1.0000000
+ Leave Link  101 at Thu Nov 12 20:35:27 2020, MaxMem=  2147483648 cpu:         0.1
+ (Enter /prod/apps/gaussian/g09d1/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          7           0        2.668000   -3.214000    1.071000
+      2          1           0        3.082000   -4.033000    1.502000
+      3          1           0        1.868000   -2.782000    1.513000
+      4          6           0        3.172000   -2.756000   -0.092000
+      5          8           0        4.135000   -3.263000   -0.678000
+      6          6           0        2.494000   -1.564000   -0.663000
+      7          6           0        2.809000   -0.885000   -1.854000
+      8          7           0        1.958000    0.129000   -2.002000
+      9          1           0        3.585000   -1.083000   -2.576000
+     10          7           0        1.451000   -0.950000   -0.092000
+     11          7           0        1.177000    0.050000   -0.919000
+     12          6           0        0.041000    0.953000   -0.725000
+     13          1           0        0.184000    1.732000   -1.475000
+     14          8           0       -1.171000    0.268000   -0.937000
+     15          6           0       -2.005000    0.353000    0.250000
+     16          6           0       -3.466000    0.390000   -0.174000
+     17          8           0       -3.864000   -0.771000   -0.888000
+     18          1           0       -3.837000   -1.520000   -0.268000
+     19          1           0       -3.614000    1.239000   -0.843000
+     20          1           0       -4.085000    0.549000    0.720000
+     21          1           0       -1.821000   -0.532000    0.873000
+     22          6           0       -1.514000    1.600000    0.982000
+     23          8           0       -2.074000    2.761000    0.392000
+     24          1           0       -1.391000    3.456000    0.475000
+     25          1           0       -1.732000    1.555000    2.055000
+     26          6           0       -0.002000    1.551000    0.694000
+     27          1           0        0.497000    0.874000    1.393000
+     28          8           0        0.606000    2.828000    0.675000
+     29          1           0        0.846000    3.060000    1.591000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  N    0.000000
+     2  H    1.013863   0.000000
+     3  H    1.010934   1.743249   0.000000
+     4  C    1.347720   2.044423   2.068119   0.000000
+     5  O    2.283307   2.540494   3.189221   1.236048   0.000000
+     6  C    2.399902   3.336005   2.571065   1.485459   2.362140
+     7  C    3.741624   4.609465   3.977534   2.595584   2.965828
+     8  N    4.595985   5.555505   4.564783   3.666759   4.242401
+     9  H    4.322344   5.058220   4.749170   3.023203   2.942330
+    10  N    2.821233   3.834825   2.471060   2.494690   3.591270
+    11  N    4.103276   5.114798   3.796357   3.540846   4.447900
+    12  C    5.243151   6.250392   4.721949   4.894950   5.876879
+    13  H    6.092232   7.106065   5.669232   5.566235   6.418383
+    14  O    5.558265   6.521912   4.953839   5.359128   6.378768
+    15  C    5.935862   6.832428   5.140382   6.048485   7.185836
+    16  C    7.222520   8.077636   6.431105   7.346229   8.448291
+    17  O    7.243822   8.037391   6.531826   7.353852   8.380821
+    18  H    6.854019   7.571039   6.108325   7.119323   8.170614
+    19  H    7.934490   8.839085   7.195242   7.910362   8.963383
+    20  H    7.738629   8.542373   6.867505   8.015386   9.168105
+    21  H    5.232920   6.057396   4.368160   5.550446   6.733342
+    22  C    6.377432   7.288642   5.560738   6.487435   7.636463
+    23  O    7.658213   8.600865   6.893537   7.628372   8.716947
+    24  H    7.830683   8.783369   7.114153   7.728609   8.775594
+    25  H    6.562897   7.396361   5.662449   6.873394   8.068711
+    26  C    5.475057   6.430006   4.789838   5.407617   6.493978
+    27  H    4.639900   5.547320   3.906453   4.747394   5.885478
+    28  O    6.396438   7.340833   5.810937   6.193036   7.168314
+    29  H    6.553866   7.437625   5.931234   6.486033   7.479720
+                    6          7          8          9         10
+     6  C    0.000000
+     7  C    1.406679   0.000000
+     8  N    2.224065   1.332029   0.000000
+     9  H    2.254154   1.078269   2.108447   0.000000
+    10  N    1.338240   2.225541   2.251531   3.277484   0.000000
+    11  N    2.098814   2.100446   1.337569   3.134933   1.326275
+    12  C    3.515159   3.509232   2.446343   4.486807   2.451571
+    13  H    4.105979   3.725984   2.448349   4.550080   3.272782
+    14  O    4.106522   4.243901   3.308200   5.208748   3.012048
+    15  C    4.974883   5.397597   4.563666   6.426233   3.709273
+    16  C    6.291171   6.619943   5.729702   7.593150   5.096981
+    17  O    6.411212   6.743521   5.995555   7.644232   5.377256
+    18  H    6.343463   6.862065   6.269608   7.784852   5.321543
+    19  H    6.722862   6.840207   5.798497   7.760192   5.568658
+    20  H    7.047035   7.497271   6.641049   8.506229   5.792550
+    21  H    4.695055   5.384983   4.794099   6.436151   3.436849
+    22  C    5.364791   5.736414   4.808626   6.771828   4.055515
+    23  O    6.378501   6.494730   5.377331   7.457187   5.141148
+    24  H    6.448928   6.473679   5.331065   7.394031   5.273641
+    25  H    5.913946   6.469510   5.666465   7.528326   4.584335
+    26  C    4.216004   4.508672   3.623824   5.522447   2.997333
+    27  H    3.762843   4.356884   3.770354   5.396161   2.538172
+    28  O    4.964318   5.003541   4.034704   5.894011   3.946593
+    29  H    5.401648   5.593248   4.768328   6.483090   4.390742
+                   11         12         13         14         15
+    11  N    0.000000
+    12  C    1.464084   0.000000
+    13  H    2.030839   1.090775   0.000000
+    14  O    2.358167   1.408230   2.066099   0.000000
+    15  C    3.403453   2.344513   3.109499   1.453186   0.000000
+    16  C    4.714666   3.594387   4.100740   2.421586   1.521731
+    17  O    5.107512   4.271741   4.795402   2.886896   2.452407
+    18  H    5.294232   4.622063   5.310442   3.279034   2.670707
+    19  H    4.936920   3.668071   3.881659   2.630575   2.137411
+    20  H    5.533892   4.390344   4.943872   3.363927   2.141428
+    21  H    3.540903   2.868078   3.828684   2.082931   1.097821
+    22  C    3.641124   2.398016   2.989561   2.361024   1.527061
+    23  O    4.431393   2.998296   3.105333   2.965923   2.413170
+    24  H    4.487616   3.123401   3.042253   3.493635   3.171156
+    25  H    4.424023   3.351766   4.020359   3.305020   2.185717
+    26  C    2.498962   1.540459   2.184472   2.381766   2.375784
+    27  H    2.546904   2.167972   3.009910   2.928884   2.799624
+    28  O    3.253331   2.407249   2.449857   3.508543   3.622647
+    29  H    3.933162   3.232852   3.406198   4.272509   4.153833
+                   16         17         18         19         20
+    16  C    0.000000
+    17  O    1.419902   0.000000
+    18  H    1.947967   0.972692   0.000000
+    19  H    1.090993   2.025987   2.827089   0.000000
+    20  H    1.098944   2.092105   2.306168   1.772261   0.000000
+    21  H    2.156923   2.707783   2.518389   3.048925   2.513497
+    22  C    2.571136   3.826361   4.085735   2.805521   2.789854
+    23  O    2.807073   4.161433   4.676615   2.492651   3.007432
+    24  H    3.758614   5.083407   5.594242   3.404988   3.970933
+    25  H    3.054901   4.314736   4.391239   3.469897   2.886325
+    26  C    3.755082   4.775924   5.006367   3.937798   4.204232
+    27  H    4.288953   5.189153   5.222424   4.693958   4.642551
+    28  O    4.821393   5.947829   6.287655   4.757903   5.215491
+    29  H    5.370053   6.557904   6.809021   5.397407   5.601654
+                   21         22         23         24         25
+    21  H    0.000000
+    22  C    2.156746   0.000000
+    23  O    3.337547   1.417611   0.000000
+    24  H    4.030812   1.927930   0.977959   0.000000
+    25  H    2.400128   1.095846   2.082539   2.495292   0.000000
+    26  C    2.771226   1.539964   2.418365   2.367764   2.201190
+    27  H    2.760500   2.177181   3.342576   3.327761   2.422900
+    28  O    4.149594   2.469136   2.695733   2.102949   2.998528
+    29  H    4.531101   2.841141   3.170710   2.531095   3.020994
+                   26         27         28         29
+    26  C    0.000000
+    27  H    1.093586   0.000000
+    28  O    1.414480   2.084591   0.000000
+    29  H    1.949563   2.222521   0.974926   0.000000
+ Stoichiometry    C8H12N4O5
+ Framework group  C1[X(C8H12N4O5)]
+ Deg. of freedom    81
+ Full point group                 C1      NOp   1
+ Largest Abelian subgroup         C1      NOp   1
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          7           0       -3.594948    1.156639    1.695271
+      2          1           0       -4.353132    1.575059    2.222528
+      3          1           0       -2.655562    1.211334    2.064799
+      4          6           0       -3.859475    0.579739    0.506339
+      5          8           0       -4.987618    0.506934    0.006530
+      6          6           0       -2.688562    0.008648   -0.207388
+      7          6           0       -2.676870   -0.644519   -1.453174
+      8          7           0       -1.424592   -1.002045   -1.732952
+      9          1           0       -3.491127   -0.859979   -2.126395
+     10          7           0       -1.436370    0.038243    0.263809
+     11          7           0       -0.728213   -0.579826   -0.671878
+     12          6           0        0.728576   -0.711404   -0.608679
+     13          1           0        0.975088   -1.383235   -1.431883
+     14          8           0        1.341860    0.544081   -0.784044
+     15          6           0        2.181124    0.852427    0.361516
+     16          6           0        3.380446    1.662774   -0.108196
+     17          8           0        3.013507    2.896512   -0.707667
+     18          1           0        2.631296    3.458333   -0.011677
+     19          1           0        3.914098    1.088712   -0.867100
+     20          1           0        4.057152    1.811218    0.744864
+     21          1           0        1.593916    1.439603    1.079584
+     22          6           0        2.519526   -0.505484    0.972643
+     23          8           0        3.573726   -1.115036    0.246880
+     24          1           0        3.394878   -2.076032    0.276904
+     25          1           0        2.765761   -0.423241    2.037294
+     26          6           0        1.211659   -1.283727    0.737461
+     27          1           0        0.483275   -1.049171    1.518723
+     28          8           0        1.406472   -2.678212    0.602507
+     29          1           0        1.411094   -3.068633    1.495833
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):      0.8026640      0.2532351      0.2259153
+ Leave Link  202 at Thu Nov 12 20:35:27 2020, MaxMem=  2147483648 cpu:         0.0
+ (Enter /prod/apps/gaussian/g09d1/l301.exe)
+ Standard basis: 6-31G(d) (6D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ There are   279 symmetry adapted cartesian basis functions of A   symmetry.
+ There are   279 symmetry adapted basis functions of A   symmetry.
+   279 basis functions,   524 primitive gaussians,   279 cartesian basis functions
+    64 alpha electrons       64 beta electrons
+       nuclear repulsion energy      1279.9523193223 Hartrees.
+ IExCor=  402 DFT=T Ex+Corr=B3LYP ExCW=0 ScaHFX=  0.200000
+ ScaDFX=  0.800000  0.720000  1.000000  0.810000 ScalE2=  1.000000  1.000000
+ IRadAn=      0 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=   29 NActive=   29 NUniq=   29 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Thu Nov 12 20:35:27 2020, MaxMem=  2147483648 cpu:         0.1
+ (Enter /prod/apps/gaussian/g09d1/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ NBasis=   279 RedAO= T EigKep=  9.57D-04  NBF=   279
+ NBsUse=   279 1.00D-06 EigRej= -1.00D+00 NBFU=   279
+ Precomputing XC quadrature grid using
+ IXCGrd= 4 IRadAn=           0 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
+ Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
+ NSgBfM=   275   275   275   275   276 MxSgAt=    29 MxSgA2=    29.
+ Leave Link  302 at Thu Nov 12 20:35:28 2020, MaxMem=  2147483648 cpu:         0.8
+ (Enter /prod/apps/gaussian/g09d1/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Thu Nov 12 20:35:28 2020, MaxMem=  2147483648 cpu:         0.0
+ (Enter /prod/apps/gaussian/g09d1/l401.exe)
+ ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=1 IRadAn=         1 AccDes= 0.00D+00
+ Harris functional with IExCor=  402 and IRadAn=       1 diagonalized for initial guess.
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         1 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=     500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Harris En= -907.088126454114    
+ JPrj=0 DoOrth=F DoCkMO=F.
+ Leave Link  401 at Thu Nov 12 20:35:31 2020, MaxMem=  2147483648 cpu:         3.0
+ (Enter /prod/apps/gaussian/g09d1/l502.exe)
+ Closed shell SCF:
+ Using DIIS extrapolation, IDIIS=  1040.
+ Integral symmetry usage will be decided dynamically.
+ Keep R1 ints in memory in canonical form, NReq=774093040.
+ IVT=      255850 IEndB=      255850 NGot=  2147483648 MDV=  1384366469
+ LenX=  1384366469 LenY=  1384288187
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=     600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=  39060 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
