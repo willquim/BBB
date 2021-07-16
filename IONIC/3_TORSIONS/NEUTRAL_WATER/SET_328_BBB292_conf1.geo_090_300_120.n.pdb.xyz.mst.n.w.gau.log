@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=g09
  Initial command:
- /prod/apps/gaussian/g09d1/l1.exe "/tmp/ubafar01/1643597/Gau-8162.inp" -scrdir="/tmp/ubafar01/1643597/"
- Entering Link 1 = /prod/apps/gaussian/g09d1/l1.exe PID=      8163.
+ /prod/apps/gaussian/g09d1/l1.exe "/tmp/ubafar01/1741396/Gau-113497.inp" -scrdir="/tmp/ubafar01/1741396/"
+ Entering Link 1 = /prod/apps/gaussian/g09d1/l1.exe PID=    113498.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -74,7 +74,7 @@
  
  ******************************************
  Gaussian 09:  AM64L-G09RevD.01 24-Apr-2013
-                25-Jan-2021 
+                29-Mar-2021 
  ******************************************
  %nproc=1
  Will use up to    1 processors via shared memory.
@@ -90,7 +90,7 @@
  5/5=2,38=5/2;
  6/7=2,8=2,9=2,10=2,28=1/1;
  99/5=1,9=1/99;
- Leave Link    1 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link    1 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l101.exe)
  ----------------------------------------------
  SET_328_BBB292_conf1.geo_090_300_120.n.pdb.xyz
@@ -155,7 +155,7 @@
  NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
  NMagM=    2.7928460   0.0000000   2.7928460   0.0000000   2.7928460
  AtZNuc=   1.0000000   6.0000000   1.0000000   6.0000000   1.0000000
- Leave Link  101 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.1
+ Leave Link  101 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.1
  (Enter /prod/apps/gaussian/g09d1/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
@@ -307,7 +307,7 @@
      25          1           0       -0.482670   -2.754619   -0.444391
  ---------------------------------------------------------------------
  Rotational constants (GHZ):      1.2116188      0.4164690      0.3597947
- Leave Link  202 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  202 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l301.exe)
  Standard basis: 6-31G(d) (6D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
@@ -323,7 +323,7 @@
  Integral buffers will be    131072 words long.
  Raffenetti 2 integral format.
  Two-electron integral symmetry is turned on.
- Leave Link  301 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  301 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l302.exe)
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
          NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
@@ -334,10 +334,10 @@
  IXCGrd= 4 IRadAn=           0 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
  Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
  NSgBfM=   231   231   231   231   231 MxSgAt=    25 MxSgA2=    25.
- Leave Link  302 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.6
+ Leave Link  302 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.5
  (Enter /prod/apps/gaussian/g09d1/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Mon Jan 25 16:23:32 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  303 at Mon Mar 29 22:42:29 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l401.exe)
  ExpMin= 1.61D-01 ExpMax= 5.48D+03 ExpMxC= 8.25D+02 IAcc=1 IRadAn=         1 AccDes= 0.00D+00
  Harris functional with IExCor=  402 and IRadAn=       1 diagonalized for initial guess.
@@ -350,7 +350,7 @@
  Petite list used in FoFCou.
  Harris En= -705.250586494337    
  JPrj=0 DoOrth=F DoCkMO=F.
- Leave Link  401 at Mon Jan 25 16:23:35 2021, MaxMem=   262144000 cpu:         2.5
+ Leave Link  401 at Mon Mar 29 22:42:32 2021, MaxMem=   262144000 cpu:         2.1
  (Enter /prod/apps/gaussian/g09d1/l502.exe)
  Closed shell SCF:
  Using DIIS extrapolation, IDIIS=  1040.
@@ -572,7 +572,7 @@
  SCF Done:  E(RB3LYP) =  -705.226376706     A.U. after   15 cycles
             NFock= 15  Conv=0.69D-08     -V/T= 2.0091
  KE= 6.988985401505D+02 PE=-3.446009806947D+03 EE= 1.142452489835D+03
- Leave Link  502 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:       131.8
+ Leave Link  502 at Mon Mar 29 22:44:49 2021, MaxMem=   262144000 cpu:       137.7
  (Enter /prod/apps/gaussian/g09d1/l601.exe)
  Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
 
@@ -847,9 +847,9 @@
  XXYZ=              7.2388 YYXZ=              9.7461 ZZXY=            -25.0342
  N-N= 8.994324002553D+02 E-N=-3.446009809492D+03  KE= 6.988985401505D+02
  No NMR shielding tensors so no spin-rotation constants.
- Leave Link  601 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:         0.2
+ Leave Link  601 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.2
  (Enter /prod/apps/gaussian/g09d1/l9999.exe)
- 1\1\GINC-PIRINEUS31\SP\RB3LYP\6-31G(d)\C9H11N1O4\UBAFAR01\25-Jan-2021\
+ 1\1\GINC-PIRINEUS26\SP\RB3LYP\6-31G(d)\C9H11N1O4\UBAFAR01\29-Mar-2021\
  0\\#p b3lyp/6-31G(d)\\SET_328_BBB292_conf1.geo_090_300_120.n.pdb.xyz\\
  0,1\N,0,1.502,0.292,-2.214\H,0,1.707,0.606,-1.266\H,0,2.355,-0.119,-2.
  59\C,0,0.401,-0.679,-2.212\C,0,-0.894,0.072,-2.577\O,0,-0.676,1.306,-3
@@ -865,16 +865,17 @@
  01 [X(C9H11N1O4)]\\@
 
 
- BE CAREFUL NOT TO BECOME TOO GOOD OF A SONGBIRD OR 
- THEY'LL THROW YOU INTO A CAGE.
+ FROM AN ANONYMOUS WRITER, ON PERSPECTIVE:
 
-                                    -- SNOOPY TO WOODSTOCK
- Job cpu time:       0 days  0 hours  2 minutes 15.4 seconds.
+ MAN, DESPITE HIS ARTISTIC PRETENSIONS, HIS SOPHISTICATION AND MANY 
+ ACCOMPLISHMENTS, OWES THE FACT OF HIS EXISTENCE TO A SIX-INCH LAYER OF 
+ TOPSOIL AND THE FACT THAT IT RAINS.
+ Job cpu time:       0 days  0 hours  2 minutes 20.8 seconds.
  File lengths (MBytes):  RWF=     31 Int=      0 D2E=      0 Chk=      3 Scr=      1
- Normal termination of Gaussian 09 at Mon Jan 25 16:25:47 2021.
+ Normal termination of Gaussian 09 at Mon Mar 29 22:44:50 2021.
  Initial command:
- /prod/apps/gaussian/g09d1/l1.exe "/tmp/ubafar01/1643597/Gau-8162.inp" -scrdir="/tmp/ubafar01/1643597/"
- Entering Link 1 = /prod/apps/gaussian/g09d1/l1.exe PID=      8257.
+ /prod/apps/gaussian/g09d1/l1.exe "/tmp/ubafar01/1741396/Gau-113497.inp" -scrdir="/tmp/ubafar01/1741396/"
+ Entering Link 1 = /prod/apps/gaussian/g09d1/l1.exe PID=    113733.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -947,7 +948,7 @@
  
  ******************************************
  Gaussian 09:  AM64L-G09RevD.01 24-Apr-2013
-                25-Jan-2021 
+                29-Mar-2021 
  ******************************************
  %nproc=1
  Will use up to    1 processors via shared memory.
@@ -965,7 +966,7 @@
  5/5=2,38=6,53=1/2;
  6/7=2,8=2,9=2,10=2,28=1/1;
  99/5=1,9=1/99;
- Leave Link    1 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link    1 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l101.exe)
  Structure from the checkpoint file:  "SET_328_BBB292_conf1.geo_090_300_120.n.pdb.xyz.mst.n.w.chk"
  ----------------------------------------------
@@ -1031,7 +1032,7 @@
  NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
  NMagM=    2.7928460   0.0000000   2.7928460   0.0000000   2.7928460
  AtZNuc=   1.0000000   6.0000000   1.0000000   6.0000000   1.0000000
- Leave Link  101 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  101 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.1
  (Enter /prod/apps/gaussian/g09d1/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
@@ -1184,7 +1185,7 @@
      25          1           0       -0.482670   -2.754619   -0.444391
  ---------------------------------------------------------------------
  Rotational constants (GHZ):      1.2116188      0.4164690      0.3597947
- Leave Link  202 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  202 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l301.exe)
  Standard basis: 6-31G(d) (6D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
@@ -1268,7 +1269,7 @@
  GePol: Cavity volume                                =    225.693 Ang**3
  PCM non-electrostatic energy =         0.0002484597 Hartrees.
  Nuclear repulsion after PCM non-electrostatic terms =      899.4326487150 Hartrees.
- Leave Link  301 at Mon Jan 25 16:25:47 2021, MaxMem=   262144000 cpu:         0.1
+ Leave Link  301 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.1
  (Enter /prod/apps/gaussian/g09d1/l302.exe)
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
          NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
@@ -1279,17 +1280,17 @@
  IXCGrd= 4 IRadAn=           0 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
  Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
  NSgBfM=   231   231   231   231   231 MxSgAt=    25 MxSgA2=    25.
- Leave Link  302 at Mon Jan 25 16:25:48 2021, MaxMem=   262144000 cpu:         0.5
+ Leave Link  302 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.5
  (Enter /prod/apps/gaussian/g09d1/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Mon Jan 25 16:25:48 2021, MaxMem=   262144000 cpu:         0.0
+ Leave Link  303 at Mon Mar 29 22:44:50 2021, MaxMem=   262144000 cpu:         0.0
  (Enter /prod/apps/gaussian/g09d1/l401.exe)
  Initial guess from the checkpoint file:  "SET_328_BBB292_conf1.geo_090_300_120.n.pdb.xyz.mst.n.w.chk"
  B after Tr=     0.000000    0.000000    0.000000
          Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
  Guess basis will be translated and rotated to current coordinates.
  JPrj=2 DoOrth=T DoCkMO=T.
- Leave Link  401 at Mon Jan 25 16:25:48 2021, MaxMem=   262144000 cpu:         0.1
+ Leave Link  401 at Mon Mar 29 22:44:51 2021, MaxMem=   262144000 cpu:         0.2
  (Enter /dades/curu/work_g09D01_MST_AddSphPartition_ReadGammas/exe-dir/l502.exe)
  Closed shell SCF:
  Using DIIS extrapolation, IDIIS=  1040.
@@ -1545,7 +1546,7 @@
  --------------------------------------------------------------------
  After PCM corrections, the energy is  -705.255222160     a.u.
  --------------------------------------------------------------------
- Leave Link  502 at Mon Jan 25 16:27:25 2021, MaxMem=   262144000 cpu:        97.3
+ Leave Link  502 at Mon Mar 29 22:46:34 2021, MaxMem=   262144000 cpu:       103.3
  (Enter /prod/apps/gaussian/g09d1/l601.exe)
  Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=0.
 
@@ -1820,9 +1821,9 @@
  XXYZ=              7.6828 YYXZ=             12.7161 ZZXY=            -30.4141
  N-N= 8.994326487150D+02 E-N=-3.446336544454D+03  KE= 6.988874512441D+02
  No NMR shielding tensors so no spin-rotation constants.
- Leave Link  601 at Mon Jan 25 16:27:25 2021, MaxMem=   262144000 cpu:         0.2
+ Leave Link  601 at Mon Mar 29 22:46:34 2021, MaxMem=   262144000 cpu:         0.2
  (Enter /prod/apps/gaussian/g09d1/l9999.exe)
- 1\1\GINC-PIRINEUS31\SP\RB3LYP\6-31G(d)\C9H11N1O4\UBAFAR01\25-Jan-2021\
+ 1\1\GINC-PIRINEUS26\SP\RB3LYP\6-31G(d)\C9H11N1O4\UBAFAR01\29-Mar-2021\
  0\\#p b3lyp/6-31G(d) scrf=(iefpcm,read,solvent=Water) geom=allcheck gu
  ess=read\\SET_328_BBB292_conf1.geo_090_300_120.n.pdb.xyz\\0,1\N,0,1.50
  2,0.292,-2.214\H,0,1.707,0.606,-1.266\H,0,2.355,-0.119,-2.59\C,0,0.401
@@ -1839,8 +1840,7 @@
  N1O4)]\\@
 
 
- LIFE CAN ONLY BE UNDERSTOOD BACKWARD, BUT MUST
- BE LIVED FORWARD. -- KIRKEGAARD
- Job cpu time:       0 days  0 hours  1 minutes 38.4 seconds.
+ LIFE IS SO UNCERTAIN - EAT DESSERT FIRST.
+ Job cpu time:       0 days  0 hours  1 minutes 44.4 seconds.
  File lengths (MBytes):  RWF=     87 Int=      0 D2E=      0 Chk=      4 Scr=      1
- Normal termination of Gaussian 09 at Mon Jan 25 16:27:25 2021.
+ Normal termination of Gaussian 09 at Mon Mar 29 22:46:34 2021.
