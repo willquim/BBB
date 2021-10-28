@@ -1,0 +1,1 @@
+En esta carpeta se encuentran todas las sesiones o archivos .pdb de los 38 compuestos de de 0 a 3 torsiones de las conformaciones obtenidas en AGUA después de haber refinado con métodos QM según el métodos "Toni" (OPT+ZPE+Solvatacion+MP2). Se ha realizado para tener las conformaciones y saber cuales son las más extendidas
